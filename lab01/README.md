@@ -11,8 +11,7 @@ Estrutura de pastas:
 ~~~
 
 ## Tarefa 1 sobre APIs de acesso
-
-> Coloque um link para o arquivo do notebook com a resolução da primeira tarefa (dois acessos). Ele estará dentro da pasta `notebook`.
+A tarefa 1 se encontra no [notebook](notebook/lab01.ipynb).
 
 ## Tarefa 2 sobre Engenharia Reversa
 > Coloque a imagem do PNG do seu diagrama como ilustrado abaixo (a imagem estará na pasta `image`):

@@ -14,6 +14,5 @@ Estrutura de pastas:
 A tarefa 1 se encontra no [notebook](notebook/lab01.ipynb).
 
 ## Tarefa 2 sobre Engenharia Reversa
-> Coloque a imagem do PNG do seu diagrama como ilustrado abaixo (a imagem estará na pasta `image`):
-> 
-> ![Diagrama de Orquestração](images/diagrama-livre.png)
+
+![Diagrama](images/diagrama.png)

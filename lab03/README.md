@@ -14,4 +14,4 @@ Estrutura de pastas:
 
 ![workflow](images/worflow.png)
 
-O arquivo do Orange pode ser visualizado em [orange](orange/parks_species.ows).
+O arquivo do Orange pode ser visualizado em [orange](orange/tarefa-workflow-orange.ows).

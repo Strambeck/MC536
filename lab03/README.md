@@ -12,6 +12,6 @@ Estrutura de pastas:
 
 ## Tarefa sobre Análise de Dados usando o Orange
 
-![workflow](images/worflow.png)
+![workflow](images/Worflow.png)
 
 O arquivo do Orange pode ser visualizado em [orange](Orange/Tarefa-workflow-orange.ows).

@@ -15,4 +15,4 @@ A tarefa 1 se encontra no [notebook](notebook/lab01.ipynb).
 
 ## Tarefa 2 sobre Engenharia Reversa
 
-![Diagram](images/Diagrama.png)
+![Diagram](images/Diagram.png)

@@ -10,4 +10,4 @@ Estrutura de pastas:
 
 ## Tarefa de sentenças SQL / Regras de Associação para o FDA Adverse Event Reporting System (FAERS)
 
-O notebook com a resolução dos exercícios se encontra na pasta notebook
+O notebook com a resolução dos exercícios se encontra na pasta [notebook](notebook/faers-lab-01.ipynb).

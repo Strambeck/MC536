@@ -1,4 +1,4 @@
-# Modelo para Apresentação do Lab05 - SQL e Regras de Associação
+# Lab05 - SQL e Regras de Associação
 
 Estrutura de pastas:
 

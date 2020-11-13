@@ -1,4 +1,4 @@
-# Modelo para Apresentação do Lab02 - Modelos Lógicos
+# Lab02 - Modelos Lógicos
 
 Estrutura de pastas:
 

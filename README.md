@@ -1,3 +1,3 @@
 # MC536
 # Aluno
-* `Pedro Strambeck Nogueira                 RA: 204759`
+* `Pedro Strambeck Nogueira`

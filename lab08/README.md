@@ -170,9 +170,9 @@ let $info := doc("https://raw.githubusercontent.com/santanche/lab2learn/master/d
 for $i in $info//drug[substring(@id,1,36) = "http://purl.obolibrary.org/obo/CHEBI"],
     $j in $info//drug[substring(@id,1,35) = "http://purl.obolibrary.org/obo/DRON"]
 where $i/@name = $j/@name
-    let $gr_chebi := substring($i/@id,38)
+    let $gr_id := substring($i/@id,38)
     let $gr_name := $i/@name
-group by $gr_chebi, $gr_name
-order by $gr_chebi, $gr_name
-return {$gr_chebi, $gr_name ,'&#xa;'}
+group by $gr_id, $gr_name
+order by $gr_id, $gr_name
+return {$gr_id, $gr_name ,'&#xa;'}
 ~~~

@@ -122,10 +122,10 @@ Apresente todas as classificações de um componente a sua escolha (diferente de
 let $info := doc("https://raw.githubusercontent.com/santanche/lab2learn/master/data/faers-2017-dron/dron.xml")
 
 for $i in $info//drug[drug/drug/@name="VINBLASTINE"]
-    let $gr := $i/@name
-group by $gr
-order by $gr
-return {data($gr), '&#xa;'}
+    let $cmp := $i/@name
+group by $cmp
+order by $cmp
+return {data($cmp), '&#xa;'}
 ~~~
 
 ## Questão 3
@@ -138,10 +138,10 @@ Liste todos os códigos ChEBI dos componentes disponíveis.
 let $info := doc("https://raw.githubusercontent.com/santanche/lab2learn/master/data/faers-2017-dron/dron.xml")
 
 for $i in $info//drug[substring(@id,1,36) = "http://purl.obolibrary.org/obo/CHEBI"]
-    let $gr := substring($i/@id,38)
-group by $gr
-order by $gr
-return {$gr, '&#xa;'}
+    let $cmp := substring($i/@id,38)
+group by $cmp
+order by $cmp
+return {$cmp, '&#xa;'}
 ~~~
 
 ### Questão 3.2
@@ -152,11 +152,11 @@ Liste todos os códigos ChEBI e primeiro nome (sinônimo) de cada um dos compone
 let $info := doc("https://raw.githubusercontent.com/santanche/lab2learn/master/data/faers-2017-dron/dron.xml")
 
 for $i in $info//drug[substring(@id,1,36)="http://purl.obolibrary.org/obo/CHEBI"]
-    let $gr_id := substring($i/@id,38)
-    let $gr_name := $i/@name
-group by $gr_id, $gr_name
-order by $gr_id, $gr_name
-return {$gr_id, $gr_name ,'&#xa;'}
+    let $cmp_id := substring($i/@id,38)
+    let $cmp_name := $i/@name
+group by $cmp_id, $cmp_name
+order by $cmp_id, $cmp_name
+return {$cmp_id, $cmp_name ,'&#xa;'}
 
 ~~~
 
@@ -170,9 +170,9 @@ let $info := doc("https://raw.githubusercontent.com/santanche/lab2learn/master/d
 for $i in $info//drug[substring(@id,1,36) = "http://purl.obolibrary.org/obo/CHEBI"],
     $j in $info//drug[substring(@id,1,35) = "http://purl.obolibrary.org/obo/DRON"]
 where $i/@name = $j/@name
-    let $gr_id := substring($i/@id,38)
-    let $gr_name := $i/@name
-group by $gr_id, $gr_name
-order by $gr_id, $gr_name
-return {$gr_id, $gr_name ,'&#xa;'}
+    let $cmp_id := substring($i/@id,38)
+    let $cmp_name := $i/@name
+group by $cmp_id, $cmp_name
+order by $cmp_id, $cmp_name
+return {$cmp_id, $cmp_name ,'&#xa;'}
 ~~~
